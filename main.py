@@ -13,6 +13,7 @@ while True:
     print("6. Square root (√)")
     print("7. Pi (π)")
     print("8. Clear (C)")
+    print("A. surface_circle")
     print("9. Exit")
     print("______________")
 
@@ -30,7 +31,7 @@ while True:
             print("Invalid input! Please enter numbers.")
             continue
 
-    elif choice in ["5", "6"]:
+    elif choice in ["5", "6", "A"]:
         try:
             a = float(input("Enter number: "))
         except ValueError:
@@ -46,6 +47,7 @@ while True:
         case "6": result = root(a)
         case "7": result = pi()
         case "8": result = clear()
+        case "A": result = surface_circle(a)
         case _:
             print("Invalid choice!")
             continue
