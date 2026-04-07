@@ -33,3 +33,11 @@ def clear():
 def display(value):
     print(f"Result: {value}")
     return value
+
+def surface_circle(a):
+    if a < 0:
+        print("Error: Cannot calculate negative surface")
+        return None
+    s = math.pi*a*a
+    return s
+
