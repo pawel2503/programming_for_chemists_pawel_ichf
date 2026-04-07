@@ -1,0 +1,2 @@
+# programming_for_chemists_pawel_ichf
+programming excersises
